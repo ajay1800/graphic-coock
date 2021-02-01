@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Samarkan;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar{
+    width:100px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:linear-gradient(#00545d8c,#00072994);
+
+}
+.navbar img{
+    margin: 10px;
+}
+.navlink{
+    margin:10px;
+    position: absolute;
+    text-align: center;
+}
+.one{
+    top: 30%;
+}
+.two{
+    top: 40%;
+}
+.three{
+    top: 50%;
+}
+.four{
+    top: 60%;
+}
+.heading{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    color: #2f0384;
+    font-size: 50px;
+}
+.bubble img{
+    width:50px;
+    animation: bubbles 7s linear infinite ;
+}
+.bubble{
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    bottom: -70px;
+}
+@keyframes bubbles{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity:0;
+    }
+}
+.bubble img:nth-child(1){
+    animation-delay: 2s;
+    width:30px;
+}
+.bubble img:nth-child(2){
+    animation-delay: 1s;
+    width:50px;
+}
+.bubble img:nth-child(3){
+    animation-delay: 2s;
+    width:30px;
+}
+.bubble img:nth-child(4){
+    animation-delay: 3s;
+    width:70px;
+}
+.bubble img:nth-child(5){
+    animation-delay: 3.5s;
+    width:50px;
+}
+.bubble img:nth-child(6){
+    animation-delay: 2s;
+    width:40px;
+}
+.bubble img:nth-child(7){
+    animation-delay: 1s;
+    width:30px;
+}
